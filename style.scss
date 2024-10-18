@@ -27,12 +27,13 @@ header {
       width: 7.3vw;
       height: 15.6vh;
       @media (max-width: 550px) {
-        width: 10vw;
+        width: 18vw;
       }
     }
     h2 {
       @media (max-width: 550px) {
         font-size: 3.5vw;
+        width: 30vw;
       }
       display: flex;
       width: 17.5vw;
@@ -59,27 +60,34 @@ header {
 }
 .sec1 {
   background-color: #ffd9ec;
-
   height: 58.21vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 550px) {
+    height: 57vh;
+    flex-direction: column-reverse;
+  }
   p {
     @media (max-width: 920px) {
       font-size: 2.2vw;
     }
     @media (max-width: 550px) {
       font-size: 3.5vw;
+      padding-top: 10px;
+      width: 60vw;
     }
     font-size: 1.8vw;
     font-weight: 400;
     width: 42.97vw;
     height: 41.34vh;
+    text-align: justify;
   }
   img {
     @media (max-width: 550px) {
-      width: 25vw;
-      height: 25vh;
+      width: 50vw;
+      height: 35vh;
+      padding-top: 10px;
     }
     width: 26.72vw;
     height: 55.38vh;
@@ -91,9 +99,13 @@ header {
   align-items: center;
   background-color: #ff69b4;
   height: 40.87vh;
+  @media (max-width: 550px) {
+    height: 60vh;
+    flex-direction: column;
+  }
   img {
     @media (max-width: 550px) {
-      width: 25vw;
+      width: 55vw;
       height: 25vh;
     }
     width: 30.81vw;
@@ -105,12 +117,14 @@ header {
     }
     @media (max-width: 550px) {
       font-size: 3.5vw;
+      width: 60vw;
     }
     color: #e4eef1;
     width: 47.43vw;
     height: 27.14vh;
     font-size: 1.8vw;
     font-weight: 400;
+    text-align: justify;
   }
 }
 .sec3 {
@@ -119,10 +133,14 @@ header {
   align-items: center;
   background-color: #ffd9ec;
   height: 66.45vh;
+  @media (max-width: 550px) {
+    flex-direction: column;
+    height: 70vh;
+  }
   img {
     @media (max-width: 550px) {
-      width: 25vw;
-      height: 25vh;
+      width: 23vw;
+      height: 23vh;
     }
     width: 18.3vw;
     height: 39vh;
@@ -155,7 +173,7 @@ footer {
   img {
     @media (max-width: 550px) {
       width: 4.5vw;
-      height: 10vh;
+      height: 7vh;
     }
     width: 5.67vw;
     height: 12vh;

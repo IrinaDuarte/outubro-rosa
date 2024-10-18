@@ -36,7 +36,7 @@ header .div1 img {
 }
 @media (max-width: 550px) {
   header .div1 img {
-    width: 10vw;
+    width: 18vw;
   }
 }
 header .div1 h2 {
@@ -50,6 +50,7 @@ header .div1 h2 {
 @media (max-width: 550px) {
   header .div1 h2 {
     font-size: 3.5vw;
+    width: 30vw;
   }
 }
 header .nav1 {
@@ -76,11 +77,18 @@ header .nav1 a {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 550px) {
+  .sec1 {
+    height: 57vh;
+    flex-direction: column-reverse;
+  }
+}
 .sec1 p {
   font-size: 1.8vw;
   font-weight: 400;
   width: 42.97vw;
   height: 41.34vh;
+  text-align: justify;
 }
 @media (max-width: 920px) {
   .sec1 p {
@@ -90,6 +98,8 @@ header .nav1 a {
 @media (max-width: 550px) {
   .sec1 p {
     font-size: 3.5vw;
+    padding-top: 10px;
+    width: 60vw;
   }
 }
 .sec1 img {
@@ -98,8 +108,9 @@ header .nav1 a {
 }
 @media (max-width: 550px) {
   .sec1 img {
-    width: 25vw;
-    height: 25vh;
+    width: 50vw;
+    height: 35vh;
+    padding-top: 10px;
   }
 }
 
@@ -110,13 +121,19 @@ header .nav1 a {
   background-color: #ff69b4;
   height: 40.87vh;
 }
+@media (max-width: 550px) {
+  .sec2 {
+    height: 60vh;
+    flex-direction: column;
+  }
+}
 .sec2 img {
   width: 30.81vw;
   height: 36.5vh;
 }
 @media (max-width: 550px) {
   .sec2 img {
-    width: 25vw;
+    width: 55vw;
     height: 25vh;
   }
 }
@@ -126,6 +143,7 @@ header .nav1 a {
   height: 27.14vh;
   font-size: 1.8vw;
   font-weight: 400;
+  text-align: justify;
 }
 @media (max-width: 920px) {
   .sec2 p {
@@ -135,6 +153,7 @@ header .nav1 a {
 @media (max-width: 550px) {
   .sec2 p {
     font-size: 3.5vw;
+    width: 60vw;
   }
 }
 
@@ -145,14 +164,20 @@ header .nav1 a {
   background-color: #ffd9ec;
   height: 66.45vh;
 }
+@media (max-width: 550px) {
+  .sec3 {
+    flex-direction: column;
+    height: 70vh;
+  }
+}
 .sec3 img {
   width: 18.3vw;
   height: 39vh;
 }
 @media (max-width: 550px) {
   .sec3 img {
-    width: 25vw;
-    height: 25vh;
+    width: 23vw;
+    height: 23vh;
   }
 }
 
@@ -189,6 +214,6 @@ footer img {
 @media (max-width: 550px) {
   footer img {
     width: 4.5vw;
-    height: 10vh;
+    height: 7vh;
   }
 }/*# sourceMappingURL=style.css.map */
